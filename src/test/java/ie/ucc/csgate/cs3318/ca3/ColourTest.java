@@ -112,4 +112,23 @@ class ColourTest {
 
         assertEquals(colourFloat, colourHex);
     }
+
+    @Test
+    void testToString() throws Exception {
+        final Colour colourFloat = new Colour(0.1f, 0.3f, 1.0f);
+        final Colour colourHex = new Colour("194CFF");
+
+        assertEquals("Colour{" +
+                "Red=" + 25 + "/255" +
+                ", Green=" + 76 + "/255" +
+                ", Blue=" + 255 + "/255" +
+                ", Hexadecimal Code='" + "#194CFF" + '\'' +
+                '}', colourFloat.toString());
+        assertEquals("Colour{" +
+                "Red=" + 25 + "/255" +
+                ", Green=" + 76 + "/255" +
+                ", Blue=" + 255 + "/255" +
+                ", Hexadecimal Code='" + "#194CFF" + '\'' +
+                '}', colourHex.toString());
+    }
 }

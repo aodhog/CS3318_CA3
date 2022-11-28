@@ -102,4 +102,19 @@ public class Colour {
         if (!(o instanceof Colour colours)) return false;
         return Hex.equals(colours.Hex);
     }
+    @Override
+    public String toString() {
+        String str;
+        if (Red == -1 || Blue == -1 || Green == -1) {
+            str = "Correct values for colours not given. No colour produced.";
+        } else {
+            str = "Colour{" +
+                    "Red=" + Red + "/255" +
+                    ", Green=" + Green + "/255" +
+                    ", Blue=" + Blue + "/255" +
+                    ", Hexadecimal Code='" + Hex + '\'' +
+                    '}';
+        }
+        return str;
+    }
 }
