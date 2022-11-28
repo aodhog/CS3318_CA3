@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="Created Test class for constructing a colour object with a String with 6 Hexadecimals to represent the RGB values. Used an assert equals to check a known 6 digit hex value against its corresponding RGB values out of 255.&#10;&#10;Wrote the corresponding methods in the colour class to create a colour object with a 6 hexadecimal string. Utilised a hashmap which each hex code in it. Split up the string into its 6 hex digits and convert them into a decimal number between 0 and 255 to represent the RGB colour. &#10;&#10;create a method to get the 3 RGB values produced as a string for comparisons. &#10;&#10;Implement an if statement that throws an Exception if hex string is not 6 digits long. and another if statement that checks that the provided string is a Hexadecimal.&#10;&#10;All previous test cases pass." />
+    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="Previous two commits created new methods getHex and getRGB, they also created two exceptions. These now need to be tested. &#10;&#10;Created test to check exception is thrown when float number provided is over 1 and a test to check exception is thrown when float number provided is under 0.&#10;&#10;Created a test to ensure exception is thrown when hex string provided is too long and a test to ensure exception is thrown when hex string provided is too short&#10;&#10;Created a unit test to check that exception is thrown when Hex string provided contains a Non-Hex character.&#10;&#10;All previous unit tests pass.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/ucc/csgate/cs3318/ca3/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/ucc/csgate/cs3318/ca3/ColourTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669660253392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Previous two commits created new methods getHex and getRGB, they also created two exceptions. These now need to be tested. &#10;&#10;Created test to check exception is thrown when float number provided is over 1 and a test to check exception is thrown when float number provided is under 0.&#10;&#10;Created a test to ensure exception is thrown when hex string provided is too long and a test to ensure exception is thrown when hex string provided is too short&#10;&#10;Created a unit test to check that exception is thrown when Hex string provided contains a Non-Hex character.&#10;&#10;All previous unit tests pass.">
+      <created>1669660719485</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669660719485</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +164,7 @@
     <MESSAGE value="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick." />
     <MESSAGE value="Created a test method to test a constructor that takes 3 floating numbers between 0 and 1 inclusive and produces a Hexadecimal representation of the floating numbers. Used 3 known values to test if the correct Hex is produced. &#10;&#10;Then programmed the corresponding Colour class to include a constructor method and a getHex method which both constructs the Hex code for the numbers given but also returns it.&#10;&#10;Initialised Red, Green and Blue to -1 for error checking so empty colour classes can't be created." />
     <MESSAGE value="Created Test class for constructing a colour object with a String with 6 Hexadecimals to represent the RGB values. Used an assert equals to check a known 6 digit hex value against its corresponding RGB values out of 255.&#10;&#10;Wrote the corresponding methods in the colour class to create a colour object with a 6 hexadecimal string. Utilised a hashmap which each hex code in it. Split up the string into its 6 hex digits and convert them into a decimal number between 0 and 255 to represent the RGB colour. &#10;&#10;create a method to get the 3 RGB values produced as a string for comparisons. &#10;&#10;Implement an if statement that throws an Exception if hex string is not 6 digits long. and another if statement that checks that the provided string is a Hexadecimal.&#10;&#10;All previous test cases pass." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Test class for constructing a colour object with a String with 6 Hexadecimals to represent the RGB values. Used an assert equals to check a known 6 digit hex value against its corresponding RGB values out of 255.&#10;&#10;Wrote the corresponding methods in the colour class to create a colour object with a 6 hexadecimal string. Utilised a hashmap which each hex code in it. Split up the string into its 6 hex digits and convert them into a decimal number between 0 and 255 to represent the RGB colour. &#10;&#10;create a method to get the 3 RGB values produced as a string for comparisons. &#10;&#10;Implement an if statement that throws an Exception if hex string is not 6 digits long. and another if statement that checks that the provided string is a Hexadecimal.&#10;&#10;All previous test cases pass." />
+    <MESSAGE value="Previous two commits created new methods getHex and getRGB, they also created two exceptions. These now need to be tested. &#10;&#10;Created test to check exception is thrown when float number provided is over 1 and a test to check exception is thrown when float number provided is under 0.&#10;&#10;Created a test to ensure exception is thrown when hex string provided is too long and a test to ensure exception is thrown when hex string provided is too short&#10;&#10;Created a unit test to check that exception is thrown when Hex string provided contains a Non-Hex character.&#10;&#10;All previous unit tests pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Previous two commits created new methods getHex and getRGB, they also created two exceptions. These now need to be tested. &#10;&#10;Created test to check exception is thrown when float number provided is over 1 and a test to check exception is thrown when float number provided is under 0.&#10;&#10;Created a test to ensure exception is thrown when hex string provided is too long and a test to ensure exception is thrown when hex string provided is too short&#10;&#10;Created a unit test to check that exception is thrown when Hex string provided contains a Non-Hex character.&#10;&#10;All previous unit tests pass." />
   </component>
 </project>

@@ -104,4 +104,12 @@ class ColourTest {
         assertEquals("1, 204, 63", colourHex.getRGB());
 
     }
+    @Fast
+    @Test
+    void testEquals() throws Exception {
+        final Colour colourFloat = new Colour(0.1f, 0.3f, 1.0f);
+        final Colour colourHex = new Colour("194CFF");
+
+        assertEquals(colourFloat, colourHex);
+    }
 }

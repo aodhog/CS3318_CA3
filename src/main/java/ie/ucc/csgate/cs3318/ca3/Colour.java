@@ -95,4 +95,11 @@ public class Colour {
     public String getRGB() {
         return this.Red + ", " + this.Green + ", " + this.Blue;
     }
+    @Override
+    public boolean equals(Object o) {
+
+        if (this == o) return true;
+        if (!(o instanceof Colour colours)) return false;
+        return Hex.equals(colours.Hex);
+    }
 }
