@@ -7,6 +7,7 @@
     <groupId>ie.ucc.csgate.cs3318.ca3</groupId>
     <artifactId>Colours</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
