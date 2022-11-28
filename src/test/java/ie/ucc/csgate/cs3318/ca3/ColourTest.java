@@ -11,4 +11,10 @@ class ColourTest {
         final Colour colourFloat = new Colour(0.1f, 0.3f, 1.0f);
         assertEquals("#194CFF", colourFloat.getHex());
     }
+    @Fast
+    @Test
+    void testConstructorHex() throws Exception {
+        final Colour colourHex = new Colour("01CC3F");
+        assertEquals("1, 204, 63", colourHex.getRGB());
+    }
 }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick.">
+    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="Created a test method to test a constructor that takes 3 floating numbers between 0 and 1 inclusive and produces a Hexadecimal representation of the floating numbers. Used 3 known values to test if the correct Hex is produced. &#10;&#10;Then programmed the corresponding Colour class to include a constructor method and a getHex method which both constructs the Hex code for the numbers given but also returns it.&#10;&#10;Initialised Red, Green and Blue to -1 for error checking so empty colour classes can't be created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ie/ucc/csgate/cs3318/ca3/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/ucc/csgate/cs3318/ca3/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,22 @@
       <recent name="ie.ucc.csgate.cs3318.ca3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ColourTest">
+    <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Colours" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.ucc.csgate.cs3318.ca3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.ucc.csgate.cs3318.ca3" />
+      <option name="MAIN_CLASS_NAME" value="ie.ucc.csgate.cs3318.ca3.ColourTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTest.testConstructorFloats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Colours" />
       <extension name="coverage">
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.testConstructorFloats" />
       </list>
     </recent_temporary>
@@ -108,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669657975732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created a test method to test a constructor that takes 3 floating numbers between 0 and 1 inclusive and produces a Hexadecimal representation of the floating numbers. Used 3 known values to test if the correct Hex is produced. &#10;&#10;Then programmed the corresponding Colour class to include a constructor method and a getHex method which both constructs the Hex code for the numbers given but also returns it.&#10;&#10;Initialised Red, Green and Blue to -1 for error checking so empty colour classes can't be created.">
+      <created>1669658529168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669658529168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +148,7 @@
     <MESSAGE value="Create a new maven project. Nothing added yet but basic Maven tools and files have been created." />
     <MESSAGE value="Added the JUnit dependencies to Maven along with the Maven Surefire plugin, Jar plugin, and compiler plugin. Also defined the distribution management inMaven for the project" />
     <MESSAGE value="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick." />
+    <MESSAGE value="Created a test method to test a constructor that takes 3 floating numbers between 0 and 1 inclusive and produces a Hexadecimal representation of the floating numbers. Used 3 known values to test if the correct Hex is produced. &#10;&#10;Then programmed the corresponding Colour class to include a constructor method and a getHex method which both constructs the Hex code for the numbers given but also returns it.&#10;&#10;Initialised Red, Green and Blue to -1 for error checking so empty colour classes can't be created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a test method to test a constructor that takes 3 floating numbers between 0 and 1 inclusive and produces a Hexadecimal representation of the floating numbers. Used 3 known values to test if the correct Hex is produced. &#10;&#10;Then programmed the corresponding Colour class to include a constructor method and a getHex method which both constructs the Hex code for the numbers given but also returns it.&#10;&#10;Initialised Red, Green and Blue to -1 for error checking so empty colour classes can't be created." />
   </component>
 </project>
