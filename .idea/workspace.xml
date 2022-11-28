@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="Added the JUnit dependencies to Maven along with the Maven Surefire plugin, Jar plugin, and compiler plugin. Also defined the distribution management inMaven for the project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Colour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fast.java" afterDir="false" />
+    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/ucc/csgate/cs3318/ca3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/ucc/csgate/cs3318/ca3/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/ucc/csgate/cs3318/ca3/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,9 +39,45 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ie.ucc.csgate.cs3318.ca3" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ie.ucc.csgate.cs3318.ca3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ColourTest.testConstructorFloats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Colours" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.ucc.csgate.cs3318.ca3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.ucc.csgate.cs3318.ca3" />
+      <option name="MAIN_CLASS_NAME" value="ie.ucc.csgate.cs3318.ca3.ColourTest" />
+      <option name="METHOD_NAME" value="testConstructorFloats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ColourTest.testConstructorFloats" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669657068278</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick.">
+      <created>1669657975732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669657975732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create a new maven project. Nothing added yet but basic Maven tools and files have been created." />
     <MESSAGE value="Added the JUnit dependencies to Maven along with the Maven Surefire plugin, Jar plugin, and compiler plugin. Also defined the distribution management inMaven for the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the JUnit dependencies to Maven along with the Maven Surefire plugin, Jar plugin, and compiler plugin. Also defined the distribution management inMaven for the project" />
+    <MESSAGE value="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a colour class and a corresponding ColourTest class in the two appropriate main and test directories. Created the annotation Fast to measure runtime for each test to ensure they are quick." />
   </component>
 </project>
