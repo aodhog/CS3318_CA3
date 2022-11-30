@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="Created a Unit test to ensure the toString method displays correctly.&#10;Created the corresponding method in Colour class to display the RGB values out of 255 and the hexadecimal code. included an if statement to ensure only colour objects that have been correctly constructed can be displayed.">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/archive-HEAD.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -178,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669661580542</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added the Jar artifact and ran the Maven lifecycle builds. Ensured each one had zero faults and tested jar package which ran successfully.">
+      <created>1669661925712</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669661925712</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +212,7 @@
     <MESSAGE value="Previous two commits created new methods getHex and getRGB, they also created two exceptions. These now need to be tested. &#10;&#10;Created test to check exception is thrown when float number provided is over 1 and a test to check exception is thrown when float number provided is under 0.&#10;&#10;Created a test to ensure exception is thrown when hex string provided is too long and a test to ensure exception is thrown when hex string provided is too short&#10;&#10;Created a unit test to check that exception is thrown when Hex string provided contains a Non-Hex character.&#10;&#10;All previous unit tests pass." />
     <MESSAGE value="colours must be capable of being compared. created a unit test that checks that two colours that contain the same RGB values should present as True even if one is made with 3 floating point numbers and one is made with a Hex string.&#10;&#10;created the corresponding method in Colours class that overrides the equals method and compares hex values to determine equality.&#10;&#10;all previous unit tests pass" />
     <MESSAGE value="Created a Unit test to ensure the toString method displays correctly.&#10;Created the corresponding method in Colour class to display the RGB values out of 255 and the hexadecimal code. included an if statement to ensure only colour objects that have been correctly constructed can be displayed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a Unit test to ensure the toString method displays correctly.&#10;Created the corresponding method in Colour class to display the RGB values out of 255 and the hexadecimal code. included an if statement to ensure only colour objects that have been correctly constructed can be displayed." />
+    <MESSAGE value="Added the Jar artifact and ran the Maven lifecycle builds. Ensured each one had zero faults and tested jar package which ran successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Jar artifact and ran the Maven lifecycle builds. Ensured each one had zero faults and tested jar package which ran successfully." />
   </component>
 </project>
