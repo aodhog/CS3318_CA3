@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/archive-HEAD.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="added the log text file and the archive-HEAD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669661925712</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added the log text file and the archive-HEAD">
+      <created>1669834209548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669834209548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +215,7 @@
     <MESSAGE value="colours must be capable of being compared. created a unit test that checks that two colours that contain the same RGB values should present as True even if one is made with 3 floating point numbers and one is made with a Hex string.&#10;&#10;created the corresponding method in Colours class that overrides the equals method and compares hex values to determine equality.&#10;&#10;all previous unit tests pass" />
     <MESSAGE value="Created a Unit test to ensure the toString method displays correctly.&#10;Created the corresponding method in Colour class to display the RGB values out of 255 and the hexadecimal code. included an if statement to ensure only colour objects that have been correctly constructed can be displayed." />
     <MESSAGE value="Added the Jar artifact and ran the Maven lifecycle builds. Ensured each one had zero faults and tested jar package which ran successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the Jar artifact and ran the Maven lifecycle builds. Ensured each one had zero faults and tested jar package which ran successfully." />
+    <MESSAGE value="added the log text file and the archive-HEAD" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the log text file and the archive-HEAD" />
   </component>
 </project>
