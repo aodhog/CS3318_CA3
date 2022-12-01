@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="added the log text file and the archive-HEAD" />
+    <list default="true" id="deb10a6a-e5c1-41a6-b749-17a154877a70" name="Changes" comment="remarked target file for inclusion.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive-HEAD.tar" beforeDir="false" afterPath="$PROJECT_DIR$/archive-HEAD.tar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669834209548</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="remarked target file for inclusion.">
+      <created>1669834563586</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669834563586</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +226,7 @@
     <MESSAGE value="Created a Unit test to ensure the toString method displays correctly.&#10;Created the corresponding method in Colour class to display the RGB values out of 255 and the hexadecimal code. included an if statement to ensure only colour objects that have been correctly constructed can be displayed." />
     <MESSAGE value="Added the Jar artifact and ran the Maven lifecycle builds. Ensured each one had zero faults and tested jar package which ran successfully." />
     <MESSAGE value="added the log text file and the archive-HEAD" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the log text file and the archive-HEAD" />
+    <MESSAGE value="remarked target file for inclusion." />
+    <option name="LAST_COMMIT_MESSAGE" value="remarked target file for inclusion." />
   </component>
 </project>
